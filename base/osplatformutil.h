@@ -1,5 +1,5 @@
-#ifndef OSPLATFORMUTIL_H
-#define OSPLATFORMUTIL_H
+#ifndef OS_PLATFORM_UTIL_H
+#define OS_PLATFORM_UTIL_H
 
 /*
    The operating system, must be one of: (I_OS_x)
