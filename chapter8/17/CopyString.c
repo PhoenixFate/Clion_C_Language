@@ -8,6 +8,8 @@ int main() {
     printf("this is mac\n");
 #elif defined I_OS_WIN32
     system("chcp 65001");
+//    system("chcp 936");
+//    system("chcp");
     printf("this is windows\n");
 #elif defined I_OS_LINUX
     printf("this is linux\n");
@@ -15,15 +17,23 @@ int main() {
     char temp[] = "中午";
     printf("%s\n", temp);
     printf("%llu\n", sizeof(temp));
-
-    char str1[30]={'\0'}, str2[30]={'\0'};
+    for (int i = 0; i < sizeof(temp); i++) {
+        printf("%d\t", temp[i]);
+    }
+    puts("");
+    char str1[30] = {'\0'}, str2[30] = {'\0'};
     printf("输入目的字符串:\n");
-    scanf("%s",str1);                           /*输入目的字符*/
+    scanf("%s", str1);                           /*输入目的字符*/
     printf("输入源字符串:\n");
-    scanf("%s",str2);                          /*输入源字符串*/
+    scanf("%s", str2);                          /*输入源字符串*/
 
     printf("输出目的字符串:\n");
     printf("%s\n", str1);                      /*输出目的字符*/
+    for (int i = 0; i < sizeof(str1); i++) {
+        printf("%d\t", str1[i]);
+    }
+    puts("");
+
     printf("%llu\n", sizeof(str1));
     printf("输出源字符串:\n");
     printf("%s\n", str2);                           /*输出源字符串*/
