@@ -1,0 +1,11 @@
+#chapter4
+ADD_EXECUTABLE(chapter4-1 1/Expression.c)
+ADD_EXECUTABLE(chapter4-2 2/BeginValue.c)
+ADD_EXECUTABLE(chapter4-3 3/Vary.c)
+ADD_EXECUTABLE(chapter4-4 4/CalculateExp.c)
+ADD_EXECUTABLE(chapter4-5 5/Priority.c)
+ADD_EXECUTABLE(chapter4-6 6/DecAndInc.c)
+ADD_EXECUTABLE(chapter4-7 7/CompareFunc.c)
+ADD_EXECUTABLE(chapter4-8 8/Logic.c)
+ADD_EXECUTABLE(chapter4-9 9/comma.c)
+ADD_EXECUTABLE(chapter4-10 10/Complex.c)

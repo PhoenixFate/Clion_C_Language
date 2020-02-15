@@ -1,0 +1,12 @@
+#chapter5
+ADD_EXECUTABLE(chapter5-1 1/PutChar.c)
+ADD_EXECUTABLE(chapter5-2 2/GetChar.c)
+ADD_EXECUTABLE(chapter5-3 3/GetCharLess.c)
+ADD_EXECUTABLE(chapter5-4 4/PutString.c)
+ADD_EXECUTABLE(chapter5-5 5/GetString.c)
+ADD_EXECUTABLE(chapter5-6 6/Printf.c)
+ADD_EXECUTABLE(chapter5-7 7/Addition.c)
+ADD_EXECUTABLE(chapter5-8 8/ScanfFunc.c)
+ADD_EXECUTABLE(chapter5-9 9/MoreScanf.c)
+ADD_EXECUTABLE(chapter5-10 10/Area.c)
+ADD_EXECUTABLE(chapter5-11 11/Convert.c)
