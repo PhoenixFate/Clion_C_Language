@@ -1,0 +1,5 @@
+#chapter13
+ADD_EXECUTABLE(chapter13-1 1/1.c)
+ADD_EXECUTABLE(chapter13-2 2/2.c)
+ADD_EXECUTABLE(chapter13-3 3/3.c)
+ADD_EXECUTABLE(chapter13-7 7/7.c)
